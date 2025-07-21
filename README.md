@@ -2,5 +2,4 @@
 
 ## Support
 
-This project is open source and maintened by one person, so if you need a urgent fix for a bug and don't want to submit it
-you can pay for my work using [github sponsor](https://github.com/sponsors/pictos/sponsorships?sponsor=pictos&tier_id=485056&preview=false).
+This project is open source and maintained by one person. If you need urgent fixes or custom features, you can support the development through [github sponsor](https://github.com/sponsors/pictos/sponsorships?sponsor=pictos&tier_id=485056&preview=false).

@@ -18,7 +18,6 @@ env:
     SAMPLE_CSPROJ: Path_To_Sample
     NugetPackageVersion: '99.0.0-preview${{ github.run_number }}'
     CurrentSemanticVersionBase: '99.0.0'
-    Package_Creation_Path: Path_To_Lookup_Into_Nuget
 
 jobs:
   build:
