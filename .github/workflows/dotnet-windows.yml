@@ -30,7 +30,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: 10.0.x
+        dotnet-version: 10.0.402
     
     - name: Get Nuget version and Name for PR
       if: ${{ github.event_name == 'pull_request' }}
@@ -39,7 +39,7 @@ jobs:
       shell: bash
     
     - name: Workload install
-      run: dotnet workload install maui
+      run: dotnet workload install maui --version 10.0.402.1
     
     - name: Restore library dependencies
       run: dotnet restore ${{env.LIB_CSPROJ}}
